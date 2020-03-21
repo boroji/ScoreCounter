@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 30px;
+  -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  width: 100%;
+}
+
+.flex button {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px 15px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #f76a8c;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+
+.flex button:hover {
+  background-color: #512b58;
+}
+
+.flex h1, .flex p {
+  color: #512b58;
+}
+
+.flex p {
+  padding-bottom: 20px;
+}
+
+input[type="number"] {
+  outline: none;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  padding: 8px 15px;
+  margin-bottom: 10px;
+}
+
+input[type="number"]:hover {
+  border: 1px solid #cccccc;
+}
+
+input[type="number"]:focus {
+  border: 1.2px solid #b3b3b3;
+}
+/*# sourceMappingURL=style.css.map */
