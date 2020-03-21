@@ -61,6 +61,10 @@ html, body {
   width: 100%;
 }
 
+.flex button:last-child {
+  background-color: #3b6978;
+}
+
 .flex button {
   width: 100%;
   margin-bottom: 5px;
@@ -69,17 +73,24 @@ html, body {
   border: none;
   border-radius: 2px;
   color: #fff;
-  background-color: #f76a8c;
+  background-color: #204051;
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .flex button:hover {
-  background-color: #512b58;
+  background-color: #84a9ac;
+}
+
+.flex button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .flex h1, .flex p {
-  color: #512b58;
+  color: #cae8d5;
 }
 
 .flex p {

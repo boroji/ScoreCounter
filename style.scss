@@ -38,6 +38,10 @@ html, body {
     height: 100px;
     width: 100%;
 
+    button:last-child {
+        background-color: #3b6978;
+    }
+
     button {
         width: 100%;
         margin-bottom: 5px;
@@ -46,16 +50,21 @@ html, body {
         border: none;
         border-radius: 2px;
         color: #fff;
-        background-color: #f76a8c;
+        background-color: #204051;
         transition: background-color 0.2s ease;
+        transform: scale(1);
 
         &:hover {
-            background-color: #512b58;
+            background-color: #84a9ac;
+        }
+
+        &:active {
+            transform: scale(0.9);
         }
     }
 
     h1, p {
-        color: #512b58;
+        color: #cae8d5;
     }
 
     p {
